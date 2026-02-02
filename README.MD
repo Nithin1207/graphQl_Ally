@@ -10,16 +10,16 @@
 ## Setup & Run
 
 1️. Use the public npm registry
-npm config set registry https://registry.npmjs.org/
+--> npm config set registry https://registry.npmjs.org/
 
 2️. Install dependencies
-npm install
+--> npm install
 
 3️. Use the correct Node version
 Make sure you have Node.js v18 or v20 installed
 
 4. Verify your Node version:
-node -v
+--> node -v
 
 
 ---
@@ -110,9 +110,9 @@ Ticket 7: Comprehensive test suite (18 tests)
 If you’re reviewing this project:
 
 1. Read the comments – every file is documented like a story
-2. Read the tests** – they explain the flow step by step
-3. Run the app** – use `npm run dev:watch` and try queries
-4. Check the logs** – Winston logs clearly show request flow and context
+2. Read the tests – they explain the flow step by step
+3. Run the app – use `npm run dev:watch` and try queries
+4. Check the logs – Winston logs clearly show request flow and context
 
 
 ## what else we can do more to this project?
