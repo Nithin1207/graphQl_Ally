@@ -9,18 +9,16 @@
 
 ## ⚙️ Setup & Run
 
-### 1️⃣ Use the public npm registry
+1️. Use the public npm registry
 npm config set registry https://registry.npmjs.org/
 
-
-### 2️⃣ Install dependencies
+2️. Install dependencies
 npm install
 
-
-### 3️⃣ Use the correct Node version
+3️. Use the correct Node version
 Make sure you have Node.js v18 or v20 installed
 
-# Verify your Node version:
+4. Verify your Node version:
 node -v
 
 
@@ -28,24 +26,22 @@ node -v
 
 ## ▶️ Running the Server
 
-### Development mode
+1. Development mode
 npm run dev
 
+2. Watch mode (recommended)
+   --> Auto-restarts the server on file changes.
+   --> (by using this, Now you can edit code and see changes immediately in GraphQL Yoga! )
 
-### Watch mode (recommended)
-# Auto-restarts the server on file changes.
-# (by using this, Now you can edit code and see changes immediately in GraphQL Yoga! )
+   npm run dev:watch
 
-npm run dev:watch
-
-
-📍 **Server URL:**
+📍 Server URL:
 http://localhost:4000/graphql
 
 
 ## 🧪 Running Tests
 
-# Run the full test suite:
+Run the full test suite:
 npm test
 
 
@@ -55,7 +51,7 @@ npm test
 
 ## 🔐 Required Headers
 
-When using **GraphQL Yoga Playground**, open the **Headers** tab and add:
+When using GraphQL Yoga Playground, open the Headers tab and add:
 
 {
   "client": "your-client-name"
@@ -66,7 +62,8 @@ When using **GraphQL Yoga Playground**, open the **Headers** tab and add:
 
 ## 🔍 Test Queries
 
-### Fetch an address
+1. Fetch an address
+
 {
   address(username: "jack") {
     street
@@ -76,8 +73,7 @@ When using **GraphQL Yoga Playground**, open the **Headers** tab and add:
   }
 }
 
-
-### Create a new address
+2. Create a new address
 
 mutation {
   createAddress(
@@ -111,14 +107,12 @@ Ticket 7: Comprehensive test suite (18 tests)
 
 ---
 
-## 🧠 How to Review This Code
-
 If you’re reviewing this project:
 
-* 📖 **Read the comments** – every file is documented like a story
-* 🧪 **Read the tests** – they explain the flow step by step
-* ▶️ **Run the app** – use `npm run dev:watch` and try queries
-* 📜 **Check the logs** – Winston logs clearly show request flow and context
+1. Read the comments – every file is documented like a story
+2. Read the tests** – they explain the flow step by step
+3. Run the app** – use `npm run dev:watch` and try queries
+4. Check the logs** – Winston logs clearly show request flow and context
 
 
 ## what else we can do more to this project?
