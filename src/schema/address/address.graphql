@@ -1,0 +1,22 @@
+type Address {
+  street: String!
+  city: String!
+  state: String!
+  zipcode: String!
+}
+
+input AddressInput {
+  street: String!
+  city: String!
+  state: String!
+  zipcode: String!
+}
+
+extend type Query {
+  address(username: String!): Address
+}
+
+
+extend type Mutation {
+  createAddress(username: String!, address: AddressInput!): Address!
+}
