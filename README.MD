@@ -27,7 +27,7 @@ Make sure you have Node.js v18 or v20 installed
 ## Running the Server
 
 1. Development mode
-npm run dev
+--> npm run dev
 
 2. Watch mode (recommended)
    --> Auto-restarts the server on file changes.
@@ -42,7 +42,7 @@ http://localhost:4000/graphql
 ## Running Tests
 
 Run the full test suite:
-npm test
+--> npm test
 
 
 > NOTE:  ℹ️ Tests use timestamp-based IDs (e.g., `test_flow_1769984076601`) to avoid collisions. If tests are interrupted, manual cleanup may be required.
