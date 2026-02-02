@@ -1,5 +1,5 @@
 
-## 🧰 Prerequisites
+## Prerequisites
 
 * **Node.js**: v18 or v20 (recommended)
 * **npm**
@@ -7,7 +7,7 @@
 
 ---
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 1️. Use the public npm registry
 npm config set registry https://registry.npmjs.org/
@@ -24,7 +24,7 @@ node -v
 
 ---
 
-## ▶️ Running the Server
+## Running the Server
 
 1. Development mode
 npm run dev
@@ -35,11 +35,11 @@ npm run dev
 
    npm run dev:watch
 
-📍 Server URL:
+Server URL:
 http://localhost:4000/graphql
 
 
-## 🧪 Running Tests
+## Running Tests
 
 Run the full test suite:
 npm test
@@ -49,7 +49,7 @@ npm test
 
 ---
 
-## 🔐 Required Headers
+## Required Headers
 
 When using GraphQL Yoga Playground, open the Headers tab and add:
 
@@ -60,7 +60,7 @@ When using GraphQL Yoga Playground, open the Headers tab and add:
 
 ---
 
-## 🔍 Test Queries
+## Test Queries
 
 1. Fetch an address
 
@@ -93,7 +93,7 @@ mutation {
 }
 
 
-## 📚 What This Project Includes
+## What This Project Includes
 
 This implementation covers 7 tickets:
 
